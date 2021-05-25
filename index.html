@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp Form</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" type="text/css" href="styles/font-awesome.min.css">-->
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+</head>
+
+<body class="text-center">
+
+<main class="form-signup">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form action="/" method="post">
+                    <img src="images/lock-icon.png" alt="">
+                    <!--<i class="lock-icon fas fa-lock"></i>-->
+                    <h1 class="h3 fw-normal">Sign UP</h1>
+
+                    <div class="row form-inline">
+                        <div class="col-md-6 form-floating-1">
+                            <input type="text" placeholder="First Name*" name="firstName" required>
+                        </div>
+                        <div class="col-md-6 form-floating-2">
+                            <input type="text" placeholder="Last Name*" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="row form-floating-3">
+                        <input type="email" placeholder="Email Address*" name="emailAddress" required>
+                    </div>
+                    <div class="row form-floating-4">
+                        <input type="password" placeholder="Password*" name="password" required>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" value="remember-me">
+                        <label class="row">
+                             I want to receive inspiration, marketing<br/>
+                            promotions and updates via email.
+                        </label>
+                    </div>
+                    <button class="row btn btn-sm btn-primary" type="submit">SIGN UP</button>
+                    <a href="#" class="row">Already have an account? sign in</a>
+                    <p class="mt-5 mb-3 text-muted">Copyright &copy; Your Website 2021.</p>
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+</main>
+</body>
+</html>

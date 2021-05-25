@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "";
+    src: url("") format("");
+}
+
+@media (max-width: 600px) {
+    .form-inline input {
+        margin: 10px 0;
+    }
+
+    .form-inline {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    height: 100%;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.form-signup {
+    width: 100%;
+    text-align: center;
+
+}
+
+.form-signup img {
+    background-color: #dc004e;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.form-signup h1 {
+    margin-bottom: 35px;
+}
+
+.form-signup input[type="text"] {
+    border: 1px solid #858585;
+    border-radius: 3px;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.form-signup .form-floating-1 {
+    padding-right: 7px;
+}
+
+.form-signup .form-floating-1 input[type="text"] {
+    float: right;
+    padding: 10px 0 10px 15px;
+}
+
+.form-signup .form-floating-2 {
+    padding-left: 7px;
+}
+
+.form-signup .form-floating-2 input[type="text"] {
+    float: left;
+    padding: 10px 0 10px 15px;
+}
+
+.form-signup .form-floating-3 {
+    margin-top: 15px;
+    margin-left: -24px;
+}
+
+.form-signup .form-floating-3 input[type="email"] {
+    border: 1px solid #858585;
+    border-radius: 3px;
+    padding: 10px 207px 10px 15px;
+}
+
+.form-signup .form-floating-4 {
+    margin-top: 15px;
+    margin-left: -24px;
+}
+
+.form-signup .form-floating-4 input[type="password"] {
+    border: 1px solid #858585;
+    border-radius: 3px;
+    padding: 10px 207px 10px 15px;
+}
+
+.form-signup .checkbox {
+    display: inline-flex;
+    margin-left: -42px;
+}
+
+.form-signup .checkbox label {
+    margin-top: 20px;
+    margin-left: 8px;
+    text-align: justify;
+}
+
+.form-signup .checkbox input[type="checkbox"] {
+    margin-left: -72px;
+    margin-top: 35px;
+}
+
+.form-signup .btn {
+    width: 400px;
+    margin-left: -24px;
+    margin-top: 15px;
+    box-shadow: 0 3px 4px #0b2e13;
+}
+
+.form-signup a {
+    font-size: 14px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: -215px;
+}
+
+
